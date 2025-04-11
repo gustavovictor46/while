@@ -1,6 +1,6 @@
-let numero = 1;
+let numero = 0;
 
-while (numero <=100){
-    console.log(`O cubo de ${numero}³ = ${numero * numero * numero}`);
+while (numero ** 3 <100){
     numero++;
+    console.log(`O cubo de ${numero}³ = ${numero * numero * numero}`);
 }
